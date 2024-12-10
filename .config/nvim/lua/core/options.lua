@@ -1,4 +1,5 @@
 vim.cmd("let g:netrw_liststyle = 3")
+vim.cmd("setlocal spell spelllang=en_au")
 
 local opt = vim.opt
 
@@ -27,7 +28,5 @@ opt.backspace = "indent,eol,start"
 opt.clipboard:append("unnamedplus")
 
 -- split
-
 opt.splitright = true
 opt.splitbelow = true
-
