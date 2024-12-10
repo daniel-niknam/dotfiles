@@ -17,6 +17,7 @@ return {
 				markdown = { "prettier" },
 				liquid = { "prettier" },
 				lua = { "stylua" },
+				erb = { "erb-formatter" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
